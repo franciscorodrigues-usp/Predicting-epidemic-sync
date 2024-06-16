@@ -23,12 +23,12 @@ random.seed(100) #set the random seed. Important to reproduce our results.
 # In[2]:
 
 
-# Network parameters
-N = 100 #number of nodes
-av_degree = 8 # average degree
-p = float(av_degree)/float(N) #probability of connection in the ER model
-m = int(av_degree/2) # number of nodes included at each time step in the BA model
-kappa = av_degree # number of neighbors in the WS model
+# Network parameters for the models
+#N = 100 #number of nodes
+#av_degree = 8 # average degree
+#p = float(av_degree)/float(N) #probability of connection in the ER model
+#m = int(av_degree/2) # number of nodes included at each time step in the BA model
+#kappa = av_degree # number of neighbors in the WS model
 
 #G = nx.barabasi_albert_graph(N,m) # generate a BA network
 #str_net = 'BA'
